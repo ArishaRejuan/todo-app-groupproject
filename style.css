@@ -1,7 +1,7 @@
 body {
 	background-image: url(images/bg-mobile-dark.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;	
+	background-size: 100%;	
 
 	display: flex;
 	flex-direction: column;
@@ -15,7 +15,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 20px 25px 10px 25px;
 	margin-top: 16px;
 }
 
@@ -26,14 +26,14 @@ h1 {
   margin: 0;
 }
 
-.search-box-container {
+.create-box-container {
 	display: flex;
 	justify-content: center;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
-.search-box {
-	width: 90%;
+.create-box {
+	width: 85%;
 	background-color: rgb(37, 39, 60);
 	display: flex;
 	padding: 15px 0;
@@ -45,13 +45,14 @@ h1 {
 	display: flex;
 	align-items: center;
 	margin-left: 10px;
+	margin-right: 10px;
 }
 
 input[type="checkbox"] {
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
-	border: 1px solid white;
+	border: 1px solid rgb(77, 80, 102);
 	appearance: none;
 }
 
@@ -61,10 +62,55 @@ input[type="checkbox"]:checked {
 }
 
 input[type="text"] {
+	width: 100%;
 	background: none;
 	border: none;
-	font-size: 16px;
+	font-size: 14px;
 	padding: 0;
 	margin: 0;
-	margin-left: 10px;
+}
+
+.result-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.results {
+	width: 85%;
+	background-color: rgb(37, 39, 60);
+	margin: 0;
+	border-radius: 5px;
+	box-shadow: 0 15px 20px rgb(8, 8, 12)
+}
+
+.result {
+	display: flex;
+	align-items: center;
+	padding: 8px 0;
+	border-bottom: 1px solid rgb(77, 80, 102);
+}
+
+p {
+	color: white;
+	font-size: 12px;
+}
+
+.cross-icon-container {
+	margin-left: auto;
+	margin-right: 15px;
+}
+
+.cross-icon {
+	width: 11px;
+}
+
+.todo-info {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+}
+
+.todo-info p {
+	color: rgb(77, 80, 102);
 }
