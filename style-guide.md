@@ -13,29 +13,29 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Blue 500: hsl(220, 98%, 61%)
-- Check Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%)
+- Blue 500: rgb(58, 123, 253)
+- Check Background: linear-gradient rgb(87, 221, 255) to rgb(192, 88, 243)
 
 ### Neutral
 
 ### Light Theme
 
-- Gray 50: hsl(0, 0%, 98%)
-- Purple 300: hsl(234, 39%, 85%)
-- Gray 300: hsl(233, 11%, 84%)
-- Gray 600: hsl(236, 9%, 61%)
-- Navy 850: hsl(235, 19%, 35%)
+- Gray 50: rgb(250, 250, 250)
+- Purple 300: rgb(202, 205, 232)
+- Gray 300: rgb(210, 211, 219)
+- Gray 600: rgb(147, 148, 165)
+- Navy 850: rgb(72, 75, 106)
 
 ### Dark Theme
 
-- Navy 950 hsl(235, 21%, 11%)
-- Navy 900: hsl(235, 24%, 19%)
-- Purple 300: hsl(234, 39%, 85%)
-- Purple 100 (hover): hsl(236, 33%, 92%)
-- Purple 600: hsl(235, 16%, 43%)
-- Purple 700: hsl(233, 14%, 35%)
-- Purple 800: hsl(237, 14%, 26%)
-- Gray 600: hsl(236, 9%, 61%)
+- Navy 950 rgb(22, 23, 34)
+- Navy 900: rgb(37, 39, 60)
+- Purple 300: rgb(202, 205, 232)
+- Purple 100 (hover): rgb(228, 229, 241)
+- Purple 600: rgb(92, 95, 127)
+- Purple 700: rgb(77, 80, 102)
+- Purple 800: rgb(57, 58, 76)
+- Gray 600: rgb(147, 148, 165)
 
 ## Typography
 
