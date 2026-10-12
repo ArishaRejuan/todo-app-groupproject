@@ -57,8 +57,11 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-	background: linear-gradient(to bottom right, rgb(87, 221, 255), rgb(192, 88, 243));
 	border-color: rgb(139, 92, 246);
+	background-image: url(images/icon-check.svg),
+	linear-gradient(to bottom right, rgb(87, 221, 255), rgb(192, 88, 243));
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 input[type="text"] {
@@ -154,4 +157,39 @@ footer p {
 	justify-content: center;
 	color: rgb(92, 95, 127);;
 	font-size: 14px;
+}
+
+
+
+@media (min-width: 800px) {
+
+body {
+	background-image: url(images/bg-desktop-dark.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;	
+}
+
+header {
+	width: 500px;
+	align-self: center;
+	margin-top: 40px;
+}
+
+.create-box {
+	width: 500px;
+}
+
+.results {
+	width: 500px;
+}
+
+.list-info-container {
+	margin-top: -55px;
+}
+
+.list-info {
+	width: 220px;
+	box-shadow: none;
+}
+
 }
